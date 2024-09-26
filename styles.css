@@ -1,0 +1,998 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #820D90, #C1358F); /* Background gradient */
+    color: white;
+}
+
+.page-container { /* Padding for the specific page */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0; /* Consistent padding for top/bottom */
+    background: transparent;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li .login-btn {
+    background-color: white;
+    color: #820D90;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    height: 80vh;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 3.5em;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Matches the screenshot styling */
+    letter-spacing: 1.5px; /* Adjusts letter spacing for a more dramatic look */
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.6; /* Improves readability */
+    letter-spacing: 0.5px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: white;
+    color: #820D90;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn span {
+    margin-left: 5px;
+}
+
+.btn:hover {
+    background-color: #F2F2F2;
+}
+
+.hero-image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.feedback-btn a {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.feedback-btn a:hover {
+    background-color: #555;
+}
+
+/* page - 2 */
+/* Reset styling for the entire page */
+.page-reset {
+    margin: 0;
+    padding: 0;
+    width: 100vw; /* Full viewport width */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* General reset with a unique class */
+.reset-all {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full-width white section styling */
+.full-width-white {
+    background-color: white; /* Full-page white background */
+    color: #333; /* Dark text color for readability */
+    padding: 50px 0; /* Vertical padding */
+    text-align: center; /* Centering text */
+    width: 100vw; /* Ensures background stretches full viewport width */
+    min-height: 60vh; /* Ensures section takes up full viewport height */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex; /* Centering content */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+}
+
+/* Container for content */
+.content-container {
+    padding: 20px;
+    max-width: 800px; /* Constrain content width */
+    margin: 0 auto; /* Center content within the section */
+}
+
+/* Icon styling */
+.icon-wrapper img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px; /* Spacing below the icon */
+}
+
+/* Date styling */
+.event-date {
+    font-size: 18px;
+    color: #666; /* Light gray for the date */
+    margin-bottom: 20px; /* Adds spacing below the date */
+}
+
+/* Title styling */
+.event-title h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333; /* Main heading color */
+    margin-bottom: 20px;
+}
+
+/* Description styling */
+.event-description {
+    font-size: 18px;
+    color: #555; /* Slightly darker than the date */
+    margin-top: 10px;
+    line-height: 1.6; /* Adds spacing between lines for readability */
+}
+
+/* page - 3 */
+
+/* page - 4 */
+/* General resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; /* Background color for the entire body */
+}
+
+/* Container for the entire section */
+.worldskills-container {
+    max-width: 1600px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 110px 110px; /* Add equal padding on top, bottom, and horizontal sides */
+    background-color: rgb(251, 247, 247) /* white background specific to this page */
+}
+
+/* Header section styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header-left h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+}
+
+.header-left p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.header-right .see-all-stories {
+    background-color: #e30474;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-right .see-all-stories:hover {
+    background-color: #c00366;
+}
+
+/* Card section */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal-width columns */
+    gap: 20px; /* Space between the cards */
+}
+
+.card {
+    background-color: white; /* White background for each card */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Card image */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Card title */
+.card h2 {
+    font-size: 18px;
+    color: #e30474;
+    margin-bottom: 10px;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Card text */
+.card p {
+    font-size: 14px;
+    color: #777;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Styles for the card text to look like links */
+.card p:hover,
+.card h2:hover {
+    color: #e30474; /* Change text color on hover */
+    text-decoration: underline; /* Underline text to resemble a link */
+}
+
+/* Active link style when the card is clicked */
+.card:active h2,
+.card:active p {
+    color: #c00366; /* Darker shade for active state */
+}
+
+/* page - 5 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; /* Background color for the entire body */
+}
+
+/* Container for the entire section */
+.worldskills-container2 {
+    max-width: 1600px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 110px 110px; /* Add equal padding on top, bottom, and horizontal sides */
+    background-color: white /* white background specific to this page */
+}
+
+/* Header section styling */
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header-left2 h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+}
+
+.header-left2 p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.header-right2 .see-all-stories2 {
+    background-color: #e30474;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-right2 .see-all-stories2:hover {
+    background-color: #c00366;
+}
+
+/* Card section */
+.card-container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal-width columns */
+    gap: 20px; /* Space between the cards */
+}
+
+.card2 {
+    background-color: white; /* White background for each card */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.card2:hover {
+    transform: translateY(-5px);
+}
+
+/* Card image */
+.card2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Card title */
+.card2 h2 {
+    font-size: 18px;
+    color: #e30474;
+    margin-bottom: 10px;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Card text */
+.card2 p {
+    font-size: 14px;
+    color: #777;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Styles for the card text to look like links */
+.card2 p:hover,
+.card2 h2:hover {
+    color: #e30474; /* Change text color on hover */
+    text-decoration: underline; /* Underline text to resemble a link */
+}
+
+/* Active link style when the card is clicked */
+.card2:active h2,
+.card2:active p {
+    color: #c00366; /* Darker shade for active state */
+}
+
+/* page - 6 */
+/* General resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #5e1672; /* Dark purple background */
+    background-image: url('images/page6/page6-bg1.jpg'); /* Geometric pattern background */
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.newsletter-content {
+    text-align: center;
+    color: white;
+}
+
+.newsletter-content .logo-icon {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.newsletter-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Newsletter form */
+.newsletter-form {
+    display: block; /* Change to block for vertical stacking */
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.newsletter-form input {
+    padding: 15px;
+    width: 300px; /* Width of the input */
+    border-radius: 0px; /* Rounded corners for input */
+    border: none;
+    font-size: 16px;
+    outline: none;
+    color: #333;
+    margin-bottom: 10px; /* Space between input and button */
+}
+
+.newsletter-form button {
+    background-color: #e30474;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 0px; /* Rounded corners for button */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #c00366;
+}
+
+/* Make sure the layout is responsive */
+@media (max-width: 768px) {
+    .newsletter-form input {
+        width: 100%; /* Full width on smaller screens */
+        margin-bottom: 10px; /* Space between input and button */
+    }
+
+    .newsletter-form {
+        flex-direction: column; /* Stack elements vertically */
+    }
+}
+
+/* page - 7 */
+/* page - 7 */
+.partner-page {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white; /* White background for the partner page */
+}
+
+.partners-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.partners-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.partners-logo {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.partners-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.partners-content {
+    display: flex;
+    gap: 40px;
+}
+
+.partners-left-column {
+    flex: 1;
+}
+
+.partners-right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.partners-description {
+    font-size: 20px; /* Increased font size */
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.partners-join-btn {
+    display: inline-block;
+    background-color: #e91e63;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.partners-quotes-container {
+    display: flex; /* Display quotes side by side */
+    gap: 20px; /* Space between quotes */
+}
+
+.partners-quote {
+    padding: 30px;
+    color: white;
+    font-size: 25px; /* Increased font size */
+    line-height: 1.4;
+    flex: 1; /* Ensure quotes take equal space */
+    font-weight: bold; /* Make text bold */
+    transition: background-color 0.3s, transform 0.3s, color 0.3s; /* Smooth transition */
+    cursor: pointer; /* Pointer cursor on hover */
+    position: relative; /* Needed for the underline */
+    border-bottom: 2px solid transparent; /* Initial border */
+    text-decoration: none; /* Remove default underline */
+}
+
+.partners-quote-blue {
+    background-color: #0077be;
+}
+
+.partners-quote-blue:hover {
+    background-color: #005a8a; /* Darker blue on hover */
+    transform: scale(1.02); /* Slightly enlarge */
+    border-bottom: 2px solid white; /* Add underline on hover */
+    color: #e1f5fe; /* Change text color on hover to mimic link behavior */
+    text-decoration: underline; /* Underline text on hover */
+}
+
+.partners-quote-orange {
+    background-color: #ff5722;
+}
+
+.partners-quote-orange:hover {
+    background-color: #c84c1b; /* Darker orange on hover */
+    transform: scale(1.02); /* Slightly enlarge */
+    border-bottom: 2px solid white; /* Add underline on hover */
+    color: #ffe0b2; /* Change text color on hover to mimic link behavior */
+    text-decoration: underline; /* Underline text on hover */
+}
+
+.partners-quote-author {
+    font-size: 14px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.partners-premium {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.partners-logos {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.partners-logo-img {
+    max-width: 150px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .partners-content {
+        flex-direction: column;
+    }
+    
+    .partners-quotes-container {
+        flex-direction: column; /* Stack quotes on smaller screens */
+    }
+}
+
+/* Footer container part - 1 */
+.ws-footer-blue-bg {
+    background-color: #003b5c;
+    color: white;
+  }
+  
+  .ws-footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .ws-footer-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .ws-footer-search-form {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  
+  .ws-footer-search-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    background-color: #00507a;
+    color: white;
+  }
+  
+  .ws-footer-search-button {
+    padding: 10px 20px;
+    background-color: #e6007e;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .ws-footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .ws-footer-column {
+    flex-basis: 22%;
+    margin-bottom: 20px;
+  }
+  
+  .ws-footer-column-heading {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .ws-footer-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ws-footer-list li {
+    margin-bottom: 10px;
+  }
+  
+  .ws-footer-list a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .ws-footer-list a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .ws-footer-column {
+      flex-basis: 48%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .ws-footer-column {
+      flex-basis: 100%;
+    }
+  }
+
+  /* Footer container - part2 */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    background-color: #003b5c; /* Set the background color */
+    color: white;
+    padding: 40px;
+}
+
+.footer-content {
+    max-width: 1200px; /* Set the maximum width */
+    margin: 0 auto; /* Center the content */
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between; /* Space the columns evenly */
+    align-items: flex-start;
+}
+
+.footer-section {
+    width: 23%; /* Adjust width for four columns */
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-section.about-us a {
+    color: white;
+    text-decoration: none; /* Optional, to remove the underline */
+}
+
+.footer-section.about-us a:hover {
+    text-decoration: underline; /* Optional, if you want the underline to appear on hover */
+}
+
+.footer-section.get-involved a {
+    color: white;
+    text-decoration: none; /* Optional, to remove underline */
+}
+
+.footer-section.get-involved a:hover {
+    text-decoration: underline; /* Optional, for underline on hover */
+}
+
+.footer-section.info-for a {
+    color: white;
+    text-decoration: none; /* Optional, to remove the underline */
+}
+
+.footer-section.info-for a:hover {
+    text-decoration: underline; /* Optional, for underline on hover */
+}
+
+.footer-logo {
+    text-align: right;
+    margin-top: -100px;
+}
+
+.footer-logo img {
+    width: 240px; /* Adjust the size of the logo if needed */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-bottom p {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.footer-links {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-extras {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.login-link {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.feedback-button {
+    background-color: #463237;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-button:hover {
+    background-color: #8b6f73;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-logo {
+        margin-top: 0;
+    }
+
+    .footer-extras {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* <!-- page after news letter  --> */
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.general-assembly-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Flexbox container for header and cards */
+.header-cards-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* Space between text and cards */
+}
+
+/* Style for the text part */
+.assembly-header {
+    width: 48%; /* Takes up half of the row */
+}
+
+.assembly-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.assembly-header .icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.assembly-header p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-top: 10px;
+}
+
+/* Cards Section */
+.assembly-cards {
+    width: 48%; /* Takes up half of the row */
+    display: flex;
+    gap: 20px;
+    flex-direction: row; /* Place cards in the same row */
+}
+
+.card {
+    width: 48%;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+    background-color: #e9ecef;
+}
+
+.card-content h3 {
+    font-size: 1.2rem;
+    color: #d0006f;
+    margin: 10px 0;
+}
+
+.card-date {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: 10px;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.newsletter-content {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.newsletter-form input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #d0006f;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.newsletter-form button:hover {
+    background-color: #a50056;
+}
